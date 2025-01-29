@@ -15,48 +15,48 @@ function Iconbar() {
   return (
     <>
       <nav>
-        <ul className="flex justify-center space-x-12">
-          <div className="flex-col justify-items-center text-center hover:bg-slate-400 p-5 rounded-3xl">
+        <ul className="flex justify-center space-x-10 pl-10 pr-10">
+          <div className="flex-col justify-items-center text-center hover:bg-slate-300 p-5 rounded-3xl">
             <FontAwesomeIcon
               icon={faHouse}
               style={{ color: "#007ec2", width: "80px", height: "80px" }}
             />
-            <li>New Construction</li>
+            <li className="mt-5">New Construction</li>
           </div>
-          <div className="flex-col justify-items-center text-center hover:bg-slate-400 p-5 rounded-3xl">
+          <div className="flex-col justify-items-center text-center hover:bg-slate-300 p-5 rounded-3xl">
             <FontAwesomeIcon
               icon={faPencil}
               style={{ color: "#007ec2", width: "80px", height: "80px" }}
             />
-            <li>Remodeling</li>
+            <li className="mt-5">Remodeling</li>
           </div>
-          <div className="flex-col justify-items-center text-center hover:bg-slate-400 p-5 rounded-3xl">
+          <div className="flex-col justify-items-center text-center hover:bg-slate-300 p-5 rounded-3xl">
             <FontAwesomeIcon
               icon={faPeopleRoof}
               style={{ color: "#007ec2", width: "80px", height: "80px" }}
             />
-            <li>Roofing</li>
+            <li className="mt-5">Roofing</li>
           </div>
-          <div className="flex-col justify-items-center text-center hover:bg-slate-400 p-5 rounded-3xl">
+          <div className="flex-col justify-items-center text-center hover:bg-slate-300 p-5 rounded-3xl">
             <FontAwesomeIcon
               icon={faTree}
               style={{ color: "#007ec2", width: "80px", height: "80px" }}
             />
-            <li>Tree Removal</li>
+            <li className="mt-5">Tree Removal</li>
           </div>
-          <div className="flex-col justify-items-center text-center hover:bg-slate-400 p-5 rounded-3xl">
+          <div className="flex-col justify-items-center text-center hover:bg-slate-300 p-5 rounded-3xl">
             <FontAwesomeIcon
               icon={faWindowFrame}
               style={{ color: "#007ec2", width: "80px", height: "80px" }}
             />
-            <li>Windows & Siding</li>
+            <li className="mt-5">Windows & Siding</li>
           </div>
-          <div className="flex-col justify-items-center text-center hover:bg-slate-400 p-5 rounded-3xl">
+          <div className="flex-col justify-items-center text-center hover:bg-slate-300 p-5 rounded-3xl">
             <FontAwesomeIcon
               icon={faTablePicnic}
               style={{ color: "#007ec2", backgroundColor: "#0" }}
             />
-            <li>Woodwork</li>
+            <li className="mt-5">Woodwork</li>
           </div>
         </ul>
       </nav>

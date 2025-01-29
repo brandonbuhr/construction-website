@@ -13,15 +13,15 @@ function Navbar() {
               height={150}
             />
           </li>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Testimonials</li>
-          <li>Gallery</li>
-          <li>Contact Us</li>
+          <li className="mt-5">Home</li>
+          <li className="mt-5">About Us</li>
+          <li className="mt-5">Services</li>
+          <li className="mt-5">Testimonials</li>
+          <li className="mt-5">Gallery</li>
+          <li className="mt-5">Contact Us</li>
         </ul>
       </nav>
-      <div className="flex justify-center pt-12">
+      <div className="flex justify-center pt-24">
         <Iconbar />
       </div>
     </>
