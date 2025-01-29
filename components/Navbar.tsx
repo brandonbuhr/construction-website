@@ -1,4 +1,4 @@
-import Iconbar from "@/components/Iconbar";
+
 import Image from "next/image";
 function Navbar() {
   return (
@@ -21,9 +21,6 @@ function Navbar() {
           <li className="mt-5">Contact Us</li>
         </ul>
       </nav>
-      <div className="flex justify-center pt-24">
-        <Iconbar />
-      </div>
     </>
   );
 }
