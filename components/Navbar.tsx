@@ -1,10 +1,18 @@
 import Iconbar from "@/components/Iconbar";
-
+import Image from "next/image";
 function Navbar() {
   return (
     <>
       <nav>
-        <ul className="flex justify-center space-x-12 pt-12">
+        <ul className="flex justify-center space-x-16 pt-12">
+          <li>
+            <Image
+              src="/logo-buhr-construction.png"
+              alt=""
+              width={150}
+              height={150}
+            />
+          </li>
           <li>Home</li>
           <li>About Us</li>
           <li>Services</li>
