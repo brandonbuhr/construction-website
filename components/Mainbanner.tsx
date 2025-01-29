@@ -6,7 +6,7 @@ function Mainbanner() {
         <div className="absolute text-5xl text-white mt-24">
           <h2>Quality building for over 20 years.</h2>
         </div>
-        <div className="absolute text-xl ml-40 mr-40 text-white text-center mt-48">
+        <div className="absolute text-xl ml-[30%] mr-[30%] text-white text-center mt-48">
           <p>
             We are a family-owned Door County builder providing the highest
             quality in full-service construction, remodeling, custom woodwork

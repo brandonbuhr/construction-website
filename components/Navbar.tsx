@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 function Navbar() {
   return (
@@ -13,12 +12,12 @@ function Navbar() {
               height={150}
             />
           </li>
-          <li className="mt-5">Home</li>
-          <li className="mt-5">About Us</li>
-          <li className="mt-5">Services</li>
-          <li className="mt-5">Testimonials</li>
-          <li className="mt-5">Gallery</li>
-          <li className="mt-5">Contact Us</li>
+          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Home</li>
+          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">About Us</li>
+          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Services</li>
+          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Testimonials</li>
+          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Gallery</li>
+          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Contact Us</li>
         </ul>
       </nav>
     </>
