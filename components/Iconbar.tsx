@@ -10,6 +10,9 @@ import {
   faTree,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
+
+//width 80px height 80px color #007ec2
 
 function Iconbar() {
   return (
@@ -17,17 +20,11 @@ function Iconbar() {
       <nav>
         <ul className="flex justify-center space-x-10 pl-10 pr-10">
           <div className="flex-col justify-items-center text-center hover:bg-slate-300 hover:cursor-pointer p-5 rounded-3xl">
-            <FontAwesomeIcon
-              icon={faHouse}
-              style={{ color: "#007ec2", width: "80px", height: "80px" }}
-            />
+            <Image src="/house-solid.svg" alt="house" width={80} height={80} />
             <li className="mt-5">New Construction</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-slate-300 hover:cursor-pointer p-5 rounded-3xl">
-            <FontAwesomeIcon
-              icon={faPencil}
-              style={{ color: "#007ec2", width: "80px", height: "80px" }}
-            />
+            <Image src="/pencil-solid.svg" alt="house" width={70} height={80} />
             <li className="mt-5">Remodeling</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-slate-300 hover:cursor-pointer p-5 rounded-3xl">
