@@ -3,7 +3,7 @@ import Image from "next/image";
 function Homesections() {
   return (
     <>
-      <div className="flex justify-center bg-blue-200 rounded-2xl pt-4 pb-4">
+      <div className="flex justify-center bg-blue-200 rounded-2xl pt-8 pb-8">
         <div className="w-[50%] flex-col">
           <h1 className="text-center font-bold text-2xl mt-8">
             Buhr Construction is a ShingleMaster!
@@ -40,9 +40,9 @@ function Homesections() {
           Read more testimonials
         </button>
       </div>
-      <div className="flex justify-center mt-22">
+      <div className="flex justify-center mt-22 bg-blue-200 rounded-2xl pt-8 pb-8">
         <div className="w-[50%] flex justify-center mt-8">
-          <button className="mt-8 mb-8 p-8 bg-blue-600 text-white p-2 rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+          <button className="mt-8 mb-16 p-8 bg-blue-600 text-white p-2 rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Request your free quote!
           </button>
         </div>
@@ -56,45 +56,54 @@ function Homesections() {
             <b className="text-xl">(920) 825-1318</b>.
           </p>
           <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl mr-[42%] ml-[42%] transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
-            Learn more
+            Contact Us
           </button>
         </div>
       </div>
-      <div className="mt-24">
+      <div className="mt-32 mr-8 ml-8">
         <div>
-          <h1>Browse our collection of work</h1>
-          <p>
+          <h1 className="text-2xl font-bold mt-8">
+            Browse our collection of work
+          </h1>
+          <p className="text-xl mt-8 mb-8 mr-80">
             The most enjoyable part of the building process is watching our
             customers step back to smile and admire the beauty of their finished
             project. Get a virtual preview of that experience by browsing this
             collection showcasing new homes and remodels in Brown, Kewaunee and
             Door Counties.
           </p>
+          <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+            View Our Gallery
+          </button>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between mb-24">
           <Image
-            src="/shingle-master-logo.png"
+            src="/example1.jpg"
             alt=""
             width={300}
             height={300}
+            className="transform scale-100 hover:scale-[1.1] transition duration-200"
           />
           <Image
-            src="/shingle-master-logo.png"
+            src="/sample2.jpg"
             alt=""
             width={300}
             height={300}
+            className="transform scale-100 hover:scale-[1.1] transition duration-200"
           />
           <Image
-            src="/shingle-master-logo.png"
+            src="/sample3.jpg"
             alt=""
             width={300}
             height={300}
+            className="transform scale-100 hover:scale-[1.1] transition duration-200"
           />
           <Image
-            src="/shingle-master-logo.png"
+            src="/sample4.jpg"
             alt=""
             width={300}
             height={300}
+            className="transform scale-100 hover:scale-[1.1] transition duration-200"
           />
         </div>
       </div>
