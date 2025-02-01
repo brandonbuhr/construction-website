@@ -47,15 +47,15 @@ function Homesections() {
           </button>
         </div>
         <div className="w-[50%] text-center mt-8">
-          <h1 className="text-2xl font-bold mt-8">
+          <h1 className="text-2xl font-bold mt-8 mr-60 ml-12">
             Got Questions? Need a Quote?
           </h1>
-          <p className="mt-8 mr-12 ml-12">
+          <p className="mt-8 mr-60 ml-12">
             Let us help with your next project! Call us today to answer your
             questions or for a quote at{" "}
             <b className="text-xl">(920) 825-1318</b>.
           </p>
-          <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl mr-[42%] ml-[42%] transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+          <button className="mt-8 mb-16 mr-60 ml-12 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Contact Us
           </button>
         </div>
