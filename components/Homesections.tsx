@@ -36,9 +36,29 @@ function Homesections() {
           again.”
         </p>
         <p>-Dores</p>
-        <button className="mt-8 mb-8 bg-blue-600 text-white p-2 rounded-3xl mr-[42%] ml-[42%]">
+        <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl mr-[42%] ml-[42%]">
           Read more testimonials
         </button>
+      </div>
+      <div className="flex justify-center mt-22">
+        <div className="w-[50%] flex justify-center mt-8">
+          <button className="mt-8 mb-8 p-8 bg-blue-600 text-white p-2 rounded-3xl font-bold text-2xl">
+            Request your free quote!
+          </button>
+        </div>
+        <div className="w-[50%] text-center">
+          <h1 className="text-2xl font-bold mt-8">
+            Got Questions? Need a Quote?
+          </h1>
+          <p className="mt-8 mr-12 ml-12">
+            Let us help with your next project! Call us today to answer your
+            questions or for a quote at{" "}
+            <b className="text-xl">(920) 825-1318</b>.
+          </p>
+          <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl mr-[42%] ml-[42%]">
+            Learn more
+          </button>
+        </div>
       </div>
     </>
   );
