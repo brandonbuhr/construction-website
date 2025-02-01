@@ -37,24 +37,15 @@ function Iconbar() {
             <li className="mt-5">Roofing</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-slate-300 hover:cursor-pointer p-5 rounded-3xl">
-            <FontAwesomeIcon
-              icon={faTree}
-              style={{ color: "#007ec2", width: "80px", height: "80px" }}
-            />
+            <Image src="/tree-solid.svg" alt="house" width={60} height={80} />
             <li className="mt-5">Tree Removal</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-slate-300 hover:cursor-pointer p-5 rounded-3xl">
-            <FontAwesomeIcon
-              icon={faWindowFrame}
-              style={{ color: "#007ec2", width: "80px", height: "80px" }}
-            />
+            <Image src="/window.png" alt="house" width={70} height={80} />
             <li className="mt-5">Windows & Siding</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-slate-300 hover:cursor-pointer p-5 rounded-3xl">
-            <FontAwesomeIcon
-              icon={faTablePicnic}
-              style={{ color: "#007ec2", backgroundColor: "#0" }}
-            />
+            <Image src="/hammer-solid.svg" alt="house" width={78} height={80} />
             <li className="mt-5">Woodwork</li>
           </div>
         </ul>
