@@ -46,7 +46,7 @@ function Homesections() {
             Request your free quote!
           </button>
         </div>
-        <div className="w-[50%] text-center">
+        <div className="w-[50%] text-center mt-8">
           <h1 className="text-2xl font-bold mt-8">
             Got Questions? Need a Quote?
           </h1>
@@ -58,6 +58,44 @@ function Homesections() {
           <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl mr-[42%] ml-[42%]">
             Learn more
           </button>
+        </div>
+      </div>
+      <div className="mt-24">
+        <div>
+          <h1>Browse our collection of work</h1>
+          <p>
+            The most enjoyable part of the building process is watching our
+            customers step back to smile and admire the beauty of their finished
+            project. Get a virtual preview of that experience by browsing this
+            collection showcasing new homes and remodels in Brown, Kewaunee and
+            Door Counties.
+          </p>
+        </div>
+        <div className="flex justify-between">
+          <Image
+            src="/shingle-master-logo.png"
+            alt=""
+            width={300}
+            height={300}
+          />
+          <Image
+            src="/shingle-master-logo.png"
+            alt=""
+            width={300}
+            height={300}
+          />
+          <Image
+            src="/shingle-master-logo.png"
+            alt=""
+            width={300}
+            height={300}
+          />
+          <Image
+            src="/shingle-master-logo.png"
+            alt=""
+            width={300}
+            height={300}
+          />
         </div>
       </div>
     </>
