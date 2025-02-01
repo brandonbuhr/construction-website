@@ -28,9 +28,11 @@ function Iconbar() {
             <li className="mt-5">Remodeling</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-slate-300 hover:cursor-pointer p-5 rounded-3xl">
-            <FontAwesomeIcon
-              icon={faPeopleRoof}
-              style={{ color: "#007ec2", width: "80px", height: "80px" }}
+            <Image
+              src="/people-roof-solid.svg"
+              alt="house"
+              width={85}
+              height={80}
             />
             <li className="mt-5">Roofing</li>
           </div>
