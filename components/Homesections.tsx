@@ -76,34 +76,34 @@ function Homesections() {
             View Our Gallery
           </button>
         </div>
-        <div className="flex justify-between mb-24">
+        <div className="flex justify-between mb-28">
           <Image
             src="/example1.jpg"
-            alt=""
+            alt="house"
             width={300}
             height={300}
-            className="transform scale-100 hover:scale-[1.1] transition duration-200"
+            className="transform scale-100 hover:scale-[1.1] transition duration-200 hover:border-4 border-solid border-blue-600 hover:cursor-pointer"
           />
           <Image
             src="/sample2.jpg"
-            alt=""
+            alt="house"
             width={300}
             height={300}
-            className="transform scale-100 hover:scale-[1.1] transition duration-200"
+            className="transform scale-100 hover:scale-[1.1] transition duration-200 hover:border-4 border-solid border-blue-600 hover:cursor-pointer"
           />
           <Image
             src="/sample3.jpg"
-            alt=""
+            alt="bench"
             width={300}
             height={300}
-            className="transform scale-100 hover:scale-[1.1] transition duration-200"
+            className="transform scale-100 hover:scale-[1.1] transition duration-200 hover:border-4 border-solid border-blue-600 hover:cursor-pointer"
           />
           <Image
             src="/sample4.jpg"
-            alt=""
+            alt="house"
             width={300}
             height={300}
-            className="transform scale-100 hover:scale-[1.1] transition duration-200"
+            className="transform scale-100 hover:scale-[1.1] transition duration-200 hover:border-4 border-solid border-blue-600 hover:cursor-pointer"
           />
         </div>
       </div>

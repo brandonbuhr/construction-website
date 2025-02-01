@@ -15,7 +15,7 @@ function Mainbanner() {
         </div>
 
         <Image
-          className="border-4 border-solid border-black"
+          className="border-4 border-solid border-blue-600"
           src="/house1.jpg"
           alt=""
           width={1000}
