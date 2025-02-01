@@ -61,7 +61,7 @@ function Homesections() {
         </div>
       </div>
       <div className="mt-32 mr-8 ml-8">
-        <div>
+        <div className="ml-48 mr-48">
           <h1 className="text-2xl font-bold mt-8">
             Browse our collection of work
           </h1>
@@ -76,7 +76,7 @@ function Homesections() {
             View Our Gallery
           </button>
         </div>
-        <div className="flex justify-between mb-28">
+        <div className="flex mb-28 justify-evenly">
           <Image
             src="/example1.jpg"
             alt="house"

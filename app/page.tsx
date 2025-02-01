@@ -3,24 +3,27 @@ import "./globals.css";
 import Iconbar from "@/components/Iconbar";
 import Mainbanner from "@/components/Mainbanner";
 import Homesections from "@/components/Homesections";
+import Footer from "@/components/Footer";
 export default function Page() {
   return (
     <>
-    <div className="ml-24 mr-24">
-
       <div>
-        <Navbar />
+        <div>
+          <Navbar />
+        </div>
+        <div>
+          <Mainbanner />
+        </div>
+        <div className="mt-12">
+          <Iconbar />
+        </div>
+        <div className="mt-12">
+          <Homesections />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
-      <div className="ml-24 mr-24">
-        <Mainbanner />
-      </div>
-      <div className="mt-12 ml-24 mr-24">
-        <Iconbar />
-      </div>
-      <div className="mt-12 mr-24 ml-24">
-        <Homesections />
-      </div>
-    </div>
     </>
   );
 }
