@@ -5,8 +5,10 @@ function Homesections() {
     <>
       <div className="flex justify-center">
         <div className="w-[50%] flex-col">
-          <h3 className="text-center">Buhr Construction is a ShingleMaster!</h3>
-          <p className="ml-[22%] mr-[20%] mt-12">
+          <h3 className="text-center font-bold text-2xl mt-8">
+            Buhr Construction is a ShingleMaster!
+          </h3>
+          <p className="ml-[22%] mr-[16%] mt-12">
             Our skilled workforce is proudly led by CertainTeed ShingleMasterTM
             certified experts. This accreditation ensures a commitment to
             quality. All crews are trained to use the highest quality materials
