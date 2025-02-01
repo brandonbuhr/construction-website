@@ -36,13 +36,13 @@ function Homesections() {
           again.”
         </p>
         <p>-Dores</p>
-        <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl mr-[42%] ml-[42%]">
+        <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl mr-[43%] ml-[43%] transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
           Read more testimonials
         </button>
       </div>
       <div className="flex justify-center mt-22">
         <div className="w-[50%] flex justify-center mt-8">
-          <button className="mt-8 mb-8 p-8 bg-blue-600 text-white p-2 rounded-3xl font-bold text-2xl">
+          <button className="mt-8 mb-8 p-8 bg-blue-600 text-white p-2 rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Request your free quote!
           </button>
         </div>
@@ -55,7 +55,7 @@ function Homesections() {
             questions or for a quote at{" "}
             <b className="text-xl">(920) 825-1318</b>.
           </p>
-          <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl mr-[42%] ml-[42%]">
+          <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl mr-[42%] ml-[42%] transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Learn more
           </button>
         </div>
