@@ -17,7 +17,7 @@ export default function Page() {
       <div className="mt-12 ml-24 mr-24">
         <Iconbar />
       </div>
-      <div className="mt-12 mr-24">
+      <div className="mt-12 mr-24 ml-24">
         <Homesections />
       </div>
     </div>
