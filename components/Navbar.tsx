@@ -9,8 +9,9 @@ function Navbar() {
             <Image
               src="/logo-buhr-construction.png"
               alt=""
-              width={150}
+              width={180}
               height={150}
+              className="pt-4"
             />
           </li>
           <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
