@@ -14,22 +14,22 @@ function Navbar() {
               className="pt-4"
             />
           </li>
-          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+          <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
             <Link href="/">Home</Link>
           </li>
-          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+          <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
             <Link href="newconstruction">About Us</Link>
           </li>
-          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+          <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
             Services
           </li>
-          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+          <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
             Testimonials
           </li>
-          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+          <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
             Gallery
           </li>
-          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+          <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
             Contact Us
           </li>
         </ul>
