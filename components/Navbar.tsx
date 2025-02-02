@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 function Navbar() {
   return (
     <>
@@ -13,10 +14,10 @@ function Navbar() {
             />
           </li>
           <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
-            Home
+            <Link href="/">Home</Link>
           </li>
           <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
-            About Us
+            <Link href="newconstruction">About Us</Link>
           </li>
           <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
             Services
