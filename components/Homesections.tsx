@@ -76,34 +76,34 @@ function Homesections() {
             View Our Gallery
           </button>
         </div>
-        <div className="flex mb-28 justify-evenly">
+        <div className="flex mb-28 justify-between p-2">
           <Image
             src="/example1.jpg"
             alt="house"
-            width={300}
-            height={300}
-            className="transform scale-100 hover:scale-[1.1] transition duration-200 hover:border-4 border-solid border-blue-600 hover:cursor-pointer"
+            width={400}
+            height={400}
+            className="hover:cursor-pointer hover:opacity-80 hover:opacity-80"
           />
           <Image
             src="/sample2.jpg"
             alt="house"
-            width={300}
-            height={300}
-            className="transform scale-100 hover:scale-[1.1] transition duration-200 hover:border-4 border-solid border-blue-600 hover:cursor-pointer"
+            width={400}
+            height={400}
+            className="hover:cursor-pointer hover:opacity-80"
           />
           <Image
             src="/sample3.jpg"
             alt="bench"
-            width={300}
-            height={300}
-            className="transform scale-100 hover:scale-[1.1] transition duration-200 hover:border-4 border-solid border-blue-600 hover:cursor-pointer"
+            width={400}
+            height={400}
+            className="hover:cursor-pointer hover:opacity-80 object-cover"
           />
           <Image
             src="/sample4.jpg"
             alt="house"
-            width={300}
-            height={300}
-            className="transform scale-100 hover:scale-[1.1] transition duration-200 hover:border-4 border-solid border-blue-600 hover:cursor-pointer"
+            width={400}
+            height={400}
+            className="hover:cursor-pointer hover:opacity-80"
           />
         </div>
       </div>
