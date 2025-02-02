@@ -2,8 +2,8 @@ import Image from "next/image";
 function Navbar() {
   return (
     <>
-      <nav>
-        <ul className="flex justify-center space-x-16 pt-12">
+      <nav className="mt-8">
+        <ul className="flex justify-center space-x-16">
           <li>
             <Image
               src="/logo-buhr-construction.png"
@@ -12,12 +12,24 @@ function Navbar() {
               height={150}
             />
           </li>
-          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Home</li>
-          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">About Us</li>
-          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Services</li>
-          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Testimonials</li>
-          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Gallery</li>
-          <li className="mt-5 text-xl hover:cursor-pointer hover:underline">Contact Us</li>
+          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+            Home
+          </li>
+          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+            About Us
+          </li>
+          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+            Services
+          </li>
+          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+            Testimonials
+          </li>
+          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+            Gallery
+          </li>
+          <li className="mt-9 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
+            Contact Us
+          </li>
         </ul>
       </nav>
     </>
