@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Homesections() {
   return (
@@ -72,9 +73,13 @@ function Homesections() {
             collection showcasing new homes and remodels in Brown, Kewaunee and
             Door Counties.
           </p>
+            <Link href="gallery">
           <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             View Our Gallery
+            
+            
           </button>
+  </Link>
         </div>
         <div className="flex mb-28 justify-between p-2">
           <Image

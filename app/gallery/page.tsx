@@ -3,13 +3,11 @@ import Mainbanner from "@/components/Mainbanner";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
+
 const Page = () => {
-  return (
-    <div>
-      <Navbar />
-      <Mainbanner />
-      <Footer />
-    </div>
-  );
+  return <div>
+    <Navbar />
+    <Footer />
+  </div>;
 };
 export default Page;
