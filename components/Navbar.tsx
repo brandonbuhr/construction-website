@@ -18,19 +18,19 @@ function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
-            <Link href="newconstruction">About Us</Link>
+            <Link href="about-us">About Us</Link>
           </li>
           <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
-            Services
+            <Link href="services">Services</Link>
           </li>
           <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
-            Testimonials
+            <Link href="testimonials">Testimonials</Link>
           </li>
           <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
-            Gallery
+            <Link href="gallery">Gallery</Link>
           </li>
           <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:bg-blue-200 p-2 rounded-3xl transform scale-100 hover:scale-[1.1]">
-            Contact Us
+            <Link href="contact-us">Contact Us</Link>
           </li>
         </ul>
       </nav>

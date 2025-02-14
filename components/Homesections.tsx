@@ -85,29 +85,29 @@ function Homesections() {
           <Image
             src="/example1.jpg"
             alt="house"
-            width={400}
-            height={400}
+            width={360}
+            height={360}
             className="hover:cursor-pointer hover:opacity-80 hover:opacity-80"
           />
           <Image
             src="/sample2.jpg"
             alt="house"
-            width={400}
-            height={400}
+            width={360}
+            height={360}
             className="hover:cursor-pointer hover:opacity-80"
           />
           <Image
             src="/sample3.jpg"
             alt="bench"
-            width={400}
-            height={400}
+            width={360}
+            height={360}
             className="hover:cursor-pointer hover:opacity-80 object-cover"
           />
           <Image
             src="/sample4.jpg"
             alt="house"
-            width={400}
-            height={400}
+            width={360}
+            height={360}
             className="hover:cursor-pointer hover:opacity-80"
           />
         </div>
