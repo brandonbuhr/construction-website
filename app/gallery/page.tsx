@@ -20,7 +20,42 @@ const Page = () => {
           collection showcasing new homes and remodels in Brown, Kewaunee and
           Door Counties.
         </p>
-        <div></div>
+        <div>
+          <img src="/IMG_0970.jpg" alt="house" />
+          <img src="/IMG_0977.jpg" alt="house" />
+          <img src="/DSC_0023.jpg" alt="house" />
+          <img src="/DSC_0027.jpg" alt="house" />
+          <img src="/DSC_0030.jpg" alt="house" />
+          <img src="/DSC_0031.jpg" alt="house" />
+          <img src="/DSC_0034.jpg" alt="house" />
+          <img src="/DSC_0038.jpg" alt="house" />
+          <img src="/DSC_0039.jpg" alt="house" />
+          <img src="/DSC_0041.jpg" alt="house" />
+          <img src="/DSC_0042.jpg" alt="house" />
+          <img src="/DSC_0044.jpg" alt="house" />
+          <img src="/IMG_0976.jpg" alt="house" />
+          <img src="/DSC_0045.jpg" alt="house" />
+          <img src="/DSC_0046.jpg" alt="house" />
+          <img src="/DSC_0048.jpg" alt="house" />
+          <img src="/DSC_0052.jpg" alt="house" />
+          <img src="/DSC_0054.jpg" alt="house" />
+          <img src="/DSC_0055.jpg" alt="house" />
+          <img src="/DSC_0056.jpg" alt="house" />
+          <img src="/DSC_0058.jpg" alt="house" />
+          <img src="/IMG_0972.jpg" alt="house" />
+          <img src="/benches1.jpg" alt="bench" />
+          <img src="/benches2.jpg" alt="bench" />
+          <img src="/benches3.jpg" alt="bench" />
+          <img src="/benches4.jpg" alt="bench" />
+          <img src="/log-cabin.jpg" alt="log cabin" />
+          <img src="/table1.jpg" alt="table" />
+          <img src="/table2.jpg" alt="table" />
+          <img src="/table3.jpg" alt="table" />
+          <img src="/table4.jpg" alt="table" />
+          <img src="/table5.jpg" alt="table" />
+          <img src="/arbor1.jpg" alt="arbor" />
+          <img src="/gazeebo.jpg" alt="gazebo" />
+        </div>
       </div>
       <Footer />
     </div>
