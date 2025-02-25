@@ -20,41 +20,43 @@ const Page = () => {
           collection showcasing new homes and remodels in Brown, Kewaunee and
           Door Counties.
         </p>
-        <div>
-          <img src="/IMG_0970.jpg" alt="house" />
-          <img src="/IMG_0977.jpg" alt="house" />
-          <img src="/DSC_0023.jpg" alt="house" />
-          <img src="/DSC_0027.jpg" alt="house" />
-          <img src="/DSC_0030.jpg" alt="house" />
-          <img src="/DSC_0031.jpg" alt="house" />
-          <img src="/DSC_0034.jpg" alt="house" />
-          <img src="/DSC_0038.jpg" alt="house" />
-          <img src="/DSC_0039.jpg" alt="house" />
-          <img src="/DSC_0041.jpg" alt="house" />
-          <img src="/DSC_0042.jpg" alt="house" />
-          <img src="/DSC_0044.jpg" alt="house" />
-          <img src="/IMG_0976.jpg" alt="house" />
-          <img src="/DSC_0045.jpg" alt="house" />
-          <img src="/DSC_0046.jpg" alt="house" />
-          <img src="/DSC_0048.jpg" alt="house" />
-          <img src="/DSC_0052.jpg" alt="house" />
-          <img src="/DSC_0054.jpg" alt="house" />
-          <img src="/DSC_0055.jpg" alt="house" />
-          <img src="/DSC_0056.jpg" alt="house" />
-          <img src="/DSC_0058.jpg" alt="house" />
-          <img src="/IMG_0972.jpg" alt="house" />
-          <img src="/benches1.jpg" alt="bench" />
-          <img src="/benches2.jpg" alt="bench" />
-          <img src="/benches3.jpg" alt="bench" />
-          <img src="/benches4.jpg" alt="bench" />
-          <img src="/log-cabin.jpg" alt="log cabin" />
-          <img src="/table1.jpg" alt="table" />
-          <img src="/table2.jpg" alt="table" />
-          <img src="/table3.jpg" alt="table" />
-          <img src="/table4.jpg" alt="table" />
-          <img src="/table5.jpg" alt="table" />
-          <img src="/arbor1.jpg" alt="arbor" />
-          <img src="/gazeebo.jpg" alt="gazebo" />
+        <div className="grid grid-cols-3 gap-4">
+          <img className="max-w-[100%]" src="/IMG_0970.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/IMG_0977.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0023.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0027.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0030.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0031.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0034.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0038.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0039.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0041.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0042.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0044.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/IMG_0976.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0045.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0046.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0048.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0052.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0054.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0055.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0056.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/DSC_0058.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/IMG_0972.jpg" alt="house" />
+          <img className="max-w-[100%]" src="/benches1.jpg" alt="bench" />
+          <img className="max-w-[100%]" src="/benches2.jpg" alt="bench" />
+          <img className="max-w-[100%]" src="/benches3.jpg" alt="bench" />
+          <img className="max-w-[100%]" src="/benches4.jpg" alt="bench" />
+          <img className="max-w-[100%]" src="/log-cabin.jpg" alt="log cabin" />
+          <img className="max-w-[100%]" src="/table1.jpg" alt="table" />
+          <img className="max-w-[100%]" src="/table2.jpg" alt="table" />
+          <img className="max-w-[100%]" src="/table3.jpg" alt="table" />
+          <img className="max-w-[100%]" src="/table4.jpg" alt="table" />
+          <img className="max-w-[100%]" src="/table5.jpg" alt="table" />
+        </div>
+        <div className="flex justify-center ml-[30%] mr-[30%] mt-6 mb-8">
+          <img className="max-w-[100%]" src="/arbor1.jpg" alt="arbor" />
+          <img className="max-w-[100%]" src="/gazeebo.jpg" alt="gazebo" />
         </div>
       </div>
       <Footer />
