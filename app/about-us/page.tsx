@@ -30,10 +30,7 @@ const Page = () => {
           unexpectedly presented a major opportunity for Tim … after being laid
           off from his job, he decided to open his own business in 1993.
         </p>
-        <h3 className="mt-[3%] text-blue-600">
-          "His reputation for hard work, quality craftsmanship and friendly
-          customer service quickly grew beyond his small Door County workshop."
-        </h3>
+
         <p className="mt-[3%]">
           The growth of his crew and services were slow and steady, but his
           reputation for hard work, quality craftsmanship and friendly customer
