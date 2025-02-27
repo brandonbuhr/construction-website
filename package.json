@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@fortawesome/duotone-light-svg-icons": "^6.7.2",
     "@fortawesome/duotone-regular-svg-icons": "^6.7.2",
     "@fortawesome/duotone-thin-svg-icons": "^6.7.2",
