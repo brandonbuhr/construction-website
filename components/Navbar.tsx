@@ -12,26 +12,26 @@ function Navbar() {
                 alt=""
                 width={180}
                 height={150}
-                className="pt-4"
+                className="pt-4 min-w-[160px]"
               />
             </li>
-            <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:underline">
+            <li className="text-sm sm:text-md md:text-lg lg:text-xl mt-9 pt-6 pl-2 pr-2 hover:cursor-pointer hover:underline">
               <Link href="/">Home</Link>
             </li>
-            <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:underline">
-              <Link href="about-us">About Us</Link>
+            <li className="text-sm sm:text-md md:text-lg lg:text-xl mt-9 pt-6 pl-2 pr-2 hover:cursor-pointer hover:underline">
+              <Link href="about-us">About</Link>
             </li>
-            <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:underline">
+            <li className="text-sm sm:text-md md:text-lg lg:text-xl mt-9 pt-6 pl-2 pr-2 hover:cursor-pointer hover:underline">
               <Link href="services">Services</Link>
             </li>
-            <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:underline">
+            <li className="text-sm sm:text-md md:text-lg lg:text-xl mt-9 pt-6 pl-2 pr-2 hover:cursor-pointer hover:underline">
               <Link href="testimonials">Testimonials</Link>
             </li>
-            <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:underline">
+            <li className="text-sm sm:text-md md:text-lg lg:text-xl mt-9 pt-6 pl-2 pr-2 hover:cursor-pointer hover:underline">
               <Link href="gallery">Gallery</Link>
             </li>
-            <li className="mt-9 pt-6 pl-4 pr-4 text-xl hover:cursor-pointer hover:underline">
-              <Link href="contact-us">Contact Us</Link>
+            <li className="text-sm sm:text-md md:text-lg lg:text-xl mt-9 pt-6 pl-2 pr-2 hover:cursor-pointer hover:underline">
+              <Link href="contact-us">Contact</Link>
             </li>
           </ul>
         </div>
