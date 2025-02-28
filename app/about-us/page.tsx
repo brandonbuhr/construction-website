@@ -1,6 +1,4 @@
 import Footer from "@/components/Footer";
-import Intro from "@/components/Intro";
-import Mainbanner from "@/components/Mainbanner";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
@@ -8,7 +6,6 @@ const Page = () => {
   return (
     <div>
       <Navbar />
-      <Intro />
       <div className="mr-[30%] ml-[30%] mt-[3%]">
         <h1 className="text-center text-3xl font-bold">
           About Buhr Construction
