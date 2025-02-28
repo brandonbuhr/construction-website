@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Mainbanner from "@/components/Mainbanner";
 import Navbar from "@/components/Navbar";
@@ -15,6 +16,7 @@ function Page() {
           Request a quote, schedule a consultation, or get more information
           about our products and services by filling out the form below.
         </p>
+        <Contact />
       </div>
       <Footer />
     </div>
