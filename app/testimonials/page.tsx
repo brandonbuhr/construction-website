@@ -6,7 +6,6 @@ function Page() {
   return (
     <div>
       <Navbar />
-      <Mainbanner />
       <div className="mr-[20%] ml-[20%]">
         <h1 className="mt-[8%] text-2xl text-blue-600">
           Building a Reputation for Satisfaction

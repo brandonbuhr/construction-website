@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <div className="text-center bg-blue-200 pt-8 pb-8">
+      <div className="text-center bg-blue-200 pt-8 pb-8 w-full">
         <p className="font-bold">
           © 2025 Copyright Buhr Construction. All rights reserved.
         </p>

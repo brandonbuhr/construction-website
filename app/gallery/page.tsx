@@ -7,7 +7,6 @@ const Page = () => {
   return (
     <div>
       <Navbar />
-      <Mainbanner />
       <div className="ml-[25%] mr-[25%]">
         <h1 className="mt-[8%] text-2xl text-blue-600">Project Gallery</h1>
         <h3 className="mt-[8%] text-2xl text-blue-600">
