@@ -2,11 +2,9 @@ import Image from "next/image";
 function Mainbanner() {
   return (
     <>
-      <div className="mt-12 flex justify-center">
-        <div className="absolute text-5xl text-white mt-24">
-          <h2 className="font-bold text-blue-200">
-            Quality building for over 20 years.
-          </h2>
+      <div className="mt-12 flex justify-center items-center">
+        <div className="absolute text-5xl text-white">
+          <h2 className="font-bold">Quality building for over 20 years.</h2>
         </div>
         <Image
           className="border-4 border-solid border-blue-600"

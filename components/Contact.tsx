@@ -12,18 +12,9 @@ import { Textarea } from "./ui/textarea";
 
 export default function Contact() {
   return (
-    <div className="flex w-full pb-12 pt-8 bg-gradient-to-br from-purple-50 to-purple-100 p-4">
+    <div className="flex w-full pb-36 pt-8 bg-gradient-to-br from-purple-50 to-purple-100 p-4">
       <Card className="mx-auto w-full max-w-md shadow-lg">
         <CardHeader className="flex flex-col items-center space-y-8 pb-2">
-          <div className="flex h-18 w-18 items-center justify-center rounded-full bg-purple-100">
-            <Image
-              src="/logo-buhr-construction.png"
-              alt="Brand Logo"
-              width={170}
-              height={170}
-              className="h-18 w-18"
-            />
-          </div>
           <div className="space-y-8 text-center">
             <h1 className="text-2xl font-bold tracking-tight">
               Let's talk about your next project
