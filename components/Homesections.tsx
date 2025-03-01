@@ -41,22 +41,22 @@ function Homesections() {
           Read more testimonials
         </button>
       </div>
-      <div className="flex justify-center mt-22 bg-blue-200 rounded-2xl pt-8 pb-8">
-        <div className="w-[50%] flex justify-center mt-8">
-          <button className="mt-8 mb-16 p-8 bg-blue-600 text-white p-2 rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+      <div className="flex flex-col justify-center mt-22 bg-blue-200 rounded-2xl pt-8 pb-8 sm:flex-col md:flex-col lg:flex-row">
+        <div className="flex justify-center mt-8">
+          <button className="mt-8 mb-16 ml-12 p-8 bg-blue-600 text-white rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Request your free quote!
           </button>
         </div>
-        <div className="w-[50%] text-center mt-8">
-          <h1 className="text-2xl font-bold mt-8 mr-60 ml-12">
+        <div className="text-center mt-8 pl-24 mr-12">
+          <h1 className="text-2xl font-bold mt-8 mr-12 ml-12">
             Got Questions? Need a Quote?
           </h1>
-          <p className="mt-8 mr-60 ml-12">
+          <p className="mt-8 mr-12 ml-12">
             Let us help with your next project! Call us today to answer your
             questions or for a quote at{" "}
             <b className="text-xl">(920) 825-1318</b>.
           </p>
-          <button className="mt-8 mb-16 mr-60 ml-12 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+          <button className="mt-8 mb-16 mr-12 ml-12 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Contact Us
           </button>
         </div>
@@ -73,13 +73,11 @@ function Homesections() {
             collection showcasing new homes and remodels in Brown, Kewaunee and
             Door Counties.
           </p>
-            <Link href="gallery">
-          <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
-            View Our Gallery
-            
-            
-          </button>
-  </Link>
+          <Link href="gallery">
+            <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+              View Our Gallery
+            </button>
+          </Link>
         </div>
         <div className="flex mb-28 justify-between p-2">
           <Image
