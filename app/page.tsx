@@ -4,6 +4,7 @@ import Iconbar from "@/components/Iconbar";
 import Mainbanner from "@/components/Mainbanner";
 import Homesections from "@/components/Homesections";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 export default function Page() {
   return (
     <>
@@ -19,6 +20,9 @@ export default function Page() {
         </div>
         <div className="mt-12">
           <Homesections />
+        </div>
+        <div>
+          <Contact />
         </div>
         <div>
           <Footer />

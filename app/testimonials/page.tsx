@@ -1,5 +1,5 @@
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Mainbanner from "@/components/Mainbanner";
 import Navbar from "@/components/Navbar";
 
 function Page() {
@@ -7,10 +7,13 @@ function Page() {
     <div>
       <Navbar />
       <div className="mr-[20%] ml-[20%]">
-        <h1 className="mt-[8%] text-2xl text-blue-600">
+        <h1 className="mt-[8%] text-center text-3xl font-bold text-blue-600">
+          Customer Testimonials
+        </h1>
+        <h1 className="mt-[8%] text-center text-3xl font-bold text-blue-600">
           Building a Reputation for Satisfaction
         </h1>
-        <h3 className="mt-[1%]">
+        <h3 className="mt-[4%] font-bold text-xl">
           Our high quality work and friendly approach is proven in the
           testimonials of our many satisfied customers. Hear from local families
           and businesses—in their own words—how Buhr Construction has made their
@@ -134,6 +137,7 @@ function Page() {
         </p>
         <p className="mt-[1%] mb-[8%]">-Roderick</p>
       </div>
+      <Contact />
       <Footer />
     </div>
   );

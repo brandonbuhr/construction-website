@@ -20,7 +20,7 @@ export default function Contact() {
             <h1 className="text-2xl font-bold tracking-tight">
               Let's talk about your next project
             </h1>
-            <p className="text-md text-muted-foreground  font-bold">
+            <p className="text-md font-bold">
               Request a quote, schedule a consultation, or get more information
               about our products and services by filling out the form below.
             </p>

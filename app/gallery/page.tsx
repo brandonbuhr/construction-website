@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
@@ -7,8 +8,10 @@ const Page = () => {
     <div>
       <Navbar />
       <div className="ml-[20%] mr-[20%]">
-        <h1 className="mt-[8%] text-2xl text-blue-600">Project Gallery</h1>
-        <h3 className="mt-[8%] text-2xl text-blue-600">
+        <h1 className="mt-[8%] text-3xl text-center font-bold text-blue-600">
+          Project Gallery
+        </h1>
+        <h3 className="mt-[8%] text-3xl text-center font-bold text-blue-600">
           Browse our collection of work
         </h3>
         <p className="mt-[2%] mb-[8%]">
@@ -188,6 +191,7 @@ const Page = () => {
           />
         </div>
       </div>
+      <Contact />
       <Footer />
     </div>
   );
