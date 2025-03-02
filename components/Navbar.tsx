@@ -5,7 +5,7 @@ function Navbar() {
     <>
       <nav className="mt-8">
         <div className="ml-[20%] mr-[20%]">
-          <ul className="flex justify-center space-x-8">
+          <ul className="flex justify-center space-x-12">
             <li>
               <Image
                 src="/logo-buhr-construction.png"
