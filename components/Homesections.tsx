@@ -79,35 +79,35 @@ function Homesections() {
             </button>
           </Link>
         </div>
-        <div className="flex mb-28 justify-between p-2">
-          <Image
-            src="/example1.jpg"
-            alt="house"
-            width={360}
-            height={360}
-            className="hover:cursor-pointer hover:opacity-80 hover:opacity-80"
-          />
-          <Image
-            src="/sample2.jpg"
-            alt="house"
-            width={360}
-            height={360}
-            className="hover:cursor-pointer hover:opacity-80"
-          />
-          <Image
-            src="/sample3.jpg"
-            alt="bench"
-            width={360}
-            height={360}
-            className="hover:cursor-pointer hover:opacity-80 object-cover"
-          />
-          <Image
-            src="/sample4.jpg"
-            alt="house"
-            width={360}
-            height={360}
-            className="hover:cursor-pointer hover:opacity-80"
-          />
+        <div className="flex mb-28 justify-around p-2">
+          <Link href="gallery">
+            <Image
+              src="/example1.jpg"
+              alt="house"
+              width={360}
+              height={360}
+              className="hover:cursor-pointer hover:opacity-80"
+            />
+          </Link>
+          <Link href="gallery">
+            <Image
+              src="/sample2.jpg"
+              alt="house"
+              width={360}
+              height={360}
+              className="hover:cursor-pointer hover:opacity-80"
+            />
+          </Link>
+
+          <Link href="gallery">
+            <Image
+              src="/sample4.jpg"
+              alt="house"
+              width={360}
+              height={360}
+              className="hover:cursor-pointer hover:opacity-80"
+            />
+          </Link>
         </div>
       </div>
     </>

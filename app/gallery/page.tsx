@@ -1,5 +1,4 @@
 import Footer from "@/components/Footer";
-import Mainbanner from "@/components/Mainbanner";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
@@ -7,7 +6,7 @@ const Page = () => {
   return (
     <div>
       <Navbar />
-      <div className="ml-[25%] mr-[25%]">
+      <div className="ml-[20%] mr-[20%]">
         <h1 className="mt-[8%] text-2xl text-blue-600">Project Gallery</h1>
         <h3 className="mt-[8%] text-2xl text-blue-600">
           Browse our collection of work
@@ -19,12 +18,7 @@ const Page = () => {
           collection showcasing new homes and remodels in Brown, Kewaunee and
           Door Counties.
         </p>
-        <div className="grid grid-cols-2 gap-20">
-          <img
-            className="max-w-[100%] hover:scale-[130%] transition-transform"
-            src="/IMG_0970.jpg"
-            alt="house"
-          />
+        <div className="grid gap-20 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 grid-cols-1">
           <img
             className="max-w-[100%] hover:scale-[130%] transition-transform"
             src="/IMG_0977.jpg"

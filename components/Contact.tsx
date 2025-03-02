@@ -11,13 +11,16 @@ import { Textarea } from "./ui/textarea";
 export default function Contact() {
   return (
     <div className="flex w-full pb-36 pt-8 bg-gradient-to-br from-purple-50 to-purple-100 p-4">
-      <Card className="mx-auto w-full max-w-md shadow-lg">
+      <Card className="mx-auto w-full max-w-md shadow-lg border-[4px] border-blue-600">
         <CardHeader className="flex flex-col items-center space-y-8 pb-2">
           <div className="space-y-8 text-center">
+            <h1 className="text-2xl font-bold tracking-tight text-blue-600">
+              Call Us: 920-825-1318
+            </h1>
             <h1 className="text-2xl font-bold tracking-tight">
               Let's talk about your next project
             </h1>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-md text-muted-foreground  font-bold">
               Request a quote, schedule a consultation, or get more information
               about our products and services by filling out the form below.
             </p>
@@ -26,15 +29,27 @@ export default function Contact() {
         <CardContent className="mt-8 pb-2">
           <div className="flex flex-col space-y-4">
             <div className="relative">
-              <Input type="text" placeholder="Name" className="pr-12" />
+              <Input
+                type="text"
+                placeholder="Name"
+                className="pr-12 font-bold"
+              />
             </div>
             <div className="relative">
-              <Input type="email" placeholder="Email" className="pr-12" />
+              <Input
+                type="email"
+                placeholder="Email"
+                className="pr-12 font-bold"
+              />
             </div>
             <div className="relative">
-              <Input type="number" placeholder="Phone" className="pr-12" />
+              <Input
+                type="number"
+                placeholder="Phone"
+                className="pr-12 font-bold"
+              />
             </div>
-            <div className="relative">
+            <div className="relative font-bold">
               <Textarea placeholder="Type your message here" />
             </div>
             <div className="relative">
