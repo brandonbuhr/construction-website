@@ -37,7 +37,7 @@ function Homesections() {
           again.”
         </p>
         <p>-Dores</p>
-        <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl mr-[43%] ml-[43%] transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+        <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl lg:mr-[40%] lg:ml-[40%] mr-[30%] ml-[30%] transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
           Read more testimonials
         </button>
       </div>
@@ -61,12 +61,12 @@ function Homesections() {
           </button>
         </div>
       </div>
-      <div className="mt-32 mr-8 ml-8">
-        <div className="ml-48 mr-48">
+      <div className="mt-32 mr-8 ml-8 flex flex-col items-center">
+        <div className="ml-12 mr-12">
           <h1 className="text-2xl font-bold mt-8">
             Browse our collection of work
           </h1>
-          <p className="text-xl mt-8 mb-8 mr-80">
+          <p className="text-xl mt-8 mb-8 mr-12">
             The most enjoyable part of the building process is watching our
             customers step back to smile and admire the beauty of their finished
             project. Get a virtual preview of that experience by browsing this
@@ -79,7 +79,7 @@ function Homesections() {
             </button>
           </Link>
         </div>
-        <div className="flex mb-28 justify-around p-2">
+        <div className="flex mb-28 justify-around p-2 sm:flex-col flex-col md:flex-row lg:flex-row">
           <Link href="gallery">
             <Image
               src="/example1.jpg"
