@@ -21,7 +21,7 @@ const Page = () => {
           collection showcasing new homes and remodels in Brown, Kewaunee and
           Door Counties.
         </p>
-        <div className="grid gap-20 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 grid-cols-1">
+        <div className="pt-8 grid gap-20 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 grid-cols-1">
           <img
             className="max-w-[100%] hover:scale-[130%] transition-transform"
             src="/IMG_0977.jpg"

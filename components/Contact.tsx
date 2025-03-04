@@ -35,7 +35,6 @@ export default function Contact() {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     send(values);
-    console.log(values);
   }
   return (
     <div className="flex w-full pb-36 pt-8 bg-gradient-to-br from-purple-50 to-purple-100 p-4">
