@@ -4,9 +4,9 @@ import Link from "next/link";
 function Homesections() {
   return (
     <>
-      <div className="flex justify-center bg-blue-200 rounded-2xl pt-8 pb-8">
+      <div className="flex flex-col justify-center md:flex-row lg:flex-row sm:items-center bg-blue-200 rounded-2xl pt-8 pb-8">
         <div className="w-[50%] flex-col">
-          <h1 className="text-center font-bold text-2xl mt-8">
+          <h1 className="text-center font-bold text-2xl mt-2">
             Buhr Construction is a ShingleMaster!
           </h1>
           <p className="ml-[22%] mr-[16%] mt-12">
@@ -17,7 +17,7 @@ function Homesections() {
             for safety, and are all fully insured on the job site.
           </p>
         </div>
-        <div className="mr-28">
+        <div className="md:mt-4 lg:mt-4 sm:mt-8 mr-28 sm:mr-0">
           <Image
             src="/shingle-master-logo.png"
             alt=""
@@ -43,7 +43,7 @@ function Homesections() {
       </div>
       <div className="flex flex-col justify-center mt-22 bg-blue-200 rounded-2xl pt-8 pb-8 sm:flex-col md:flex-col lg:flex-row">
         <div className="flex justify-center mt-8">
-          <button className="mt-8 mb-16 p-8 bg-blue-600 text-white rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+          <button className="mt-8 mb-16 mr-12 ml-12 p-8 bg-blue-600 text-white rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Request your free quote!
           </button>
         </div>
