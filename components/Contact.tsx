@@ -1,11 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-} from "@/components/ui/card";
+import { Card, CardFooter, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -13,15 +8,14 @@ import { useForm } from "react-hook-form";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
-  FormLabel,
   FormMessage,
 } from "@/components/ui/form";
 import { Textarea } from "./ui/textarea";
 import { formSchema } from "@/lib/schemas";
 import { send } from "@/lib/email";
+import { useState, useEffect } from "react";
 export default function Contact() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -33,9 +27,31 @@ export default function Contact() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    send(values);
+  const [successMessage, setSuccessMessage] = useState("");
+
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      await send(values);
+      setSuccessMessage("Your message was sent successfully!");
+      form.reset();
+    } catch (error) {
+      console.error(error);
+      setSuccessMessage("An error occurred. Please try again.");
+    }
   }
+
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+
+    if (successMessage) {
+      timer = setTimeout(() => {
+        setSuccessMessage("");
+      }, 4000);
+    }
+
+    return () => clearTimeout(timer);
+  }, [successMessage]);
+
   return (
     <div className="flex w-full pb-36 pt-8 bg-gradient-to-br from-purple-50 to-purple-100 p-4">
       <Card className="mx-auto w-full max-w-md shadow-lg border-[4px] border-blue-600">
@@ -114,6 +130,11 @@ export default function Contact() {
             <Button className="bg-blue-600" type="submit">
               Submit
             </Button>
+            {successMessage && (
+              <div className="text-center text-blue-600 font-semibold mt-4">
+                {successMessage}
+              </div>
+            )}
           </form>
         </Form>
         <CardFooter className="flex flex-col pt-2">
