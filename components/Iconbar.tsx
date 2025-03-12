@@ -8,44 +8,49 @@ function Iconbar() {
         <ul className="flex flex-wrap justify-center space-x-10 sm:flex-wrap md:flex-wrap">
           <div className="flex-col justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.1] transition duration-200">
             <Image
-              src="/house-solid.svg"
+              src="/house-solid.png"
               alt="house"
-              width={102}
+              width={100}
               height={100}
             />
             <li className="mt-5">New Construction</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.1] transition duration-200">
             <Image
-              src="/pencil-solid.svg"
+              src="/pencil-solid.png"
               alt="house"
-              width={90}
+              width={100}
               height={100}
             />
             <li className="mt-5">Remodeling</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.1] transition duration-200">
             <Image
-              src="/people-roof-solid.svg"
+              src="/people-roof-solid.png"
               alt="house"
-              width={113}
+              width={100}
               height={100}
             />
             <li className="mt-5">Roofing</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.1] transition duration-200">
-            <Image src="/tree-solid.svg" alt="house" width={79} height={100} />
+            <Image src="/tree-solid.png" alt="house" width={100} height={100} />
             <li className="mt-5">Tree Removal</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.1] transition duration-200">
-            <Image src="/window.png" alt="house" width={90} height={100} />
+            <Image
+              src="/window-icon.png"
+              alt="house"
+              width={100}
+              height={100}
+            />
             <li className="mt-5">Windows & Siding</li>
           </div>
           <div className="flex-col justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.1] transition duration-200">
             <Image
-              src="/hammer-solid.svg"
+              src="/hammer-solid.png"
               alt="house"
-              width={102}
+              width={100}
               height={100}
             />
             <li className="mt-5">Woodwork</li>
