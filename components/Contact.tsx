@@ -12,7 +12,6 @@ import {
   FormItem,
   FormMessage,
 } from "@/components/ui/form";
-import { Textarea } from "./ui/textarea";
 import { formSchema } from "@/lib/schemas";
 import { send } from "@/lib/email";
 import { useState, useEffect } from "react";
@@ -21,9 +20,7 @@ export default function Contact() {
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
-      email: "",
       phone: "",
-      message: "",
     },
   });
 
@@ -86,18 +83,7 @@ export default function Contact() {
                 </FormItem>
               )}
             />
-            <FormField
-              control={form.control}
-              name="email"
-              render={({ field }) => (
-                <FormItem>
-                  <FormControl>
-                    <Input placeholder="Email" {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
+
             <FormField
               control={form.control}
               name="phone"
@@ -110,23 +96,7 @@ export default function Contact() {
                 </FormItem>
               )}
             />
-            <FormField
-              control={form.control}
-              name="message"
-              render={({ field }) => (
-                <FormItem>
-                  <FormControl>
-                    <Textarea
-                      className="min-h-[120px]"
-                      id="message"
-                      placeholder="Message"
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
+
             <Button className="bg-blue-600" type="submit">
               Submit
             </Button>
