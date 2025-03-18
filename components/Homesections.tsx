@@ -37,7 +37,7 @@ function Homesections() {
           again.”
         </p>
         <p>-Dores</p>
-        <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl lg:mr-[40%] lg:ml-[40%] mr-[30%] ml-[30%] transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+        <button className="mt-8 mb-16 bg-blue-600 text-white p-2 rounded-3xl lg:mr-[45%] lg:ml-[45%] mr-[30%] ml-[30%] transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
           Read more testimonials
         </button>
       </div>
