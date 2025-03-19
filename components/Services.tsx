@@ -1,7 +1,7 @@
 function Services() {
   return (
     <>
-      <div>
+      <div className="">
         <h1>New Construction</h1>
         <h3>Your Vision - Custom Built - Start to Finish</h3>
         <p>

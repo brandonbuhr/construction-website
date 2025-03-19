@@ -17,7 +17,7 @@ function Homesections() {
             for safety, and are all fully insured on the job site.
           </p>
         </div>
-        <div className="md:mt-4 lg:mt-4 sm:mt-8 sm:mr-0">
+        <div className=" mt-8 md:mt-4 lg:mt-4 sm:mt-8 sm:mr-0">
           <Image
             src="/shingle-master-logo.png"
             alt=""
