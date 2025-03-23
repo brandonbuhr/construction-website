@@ -13,7 +13,7 @@ function Page() {
         <h1 className="mt-[8%] text-center text-3xl font-bold text-blue-600">
           Building a Reputation for Satisfaction
         </h1>
-        <h3 className="mt-[4%] font-bold text-xl">
+        <h3 className="mt-[4%] font-bold text-2xl">
           Our high quality work and friendly approach is proven in the
           testimonials of our many satisfied customers. Hear from local families
           and businesses—in their own words—how Buhr Construction has made their
@@ -22,16 +22,16 @@ function Page() {
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Good, hardworking, and friendly people...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “Thank you for the excellent job your men did on my roof. You have
           real good hardworking and friendly people working for you. Thanks
           again.”
-          <p className="mt-[1%]">-Dores</p>
+          <p className="mt-[1%] text-lg">-Dores</p>
         </p>
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Treated us fairly and honestly throughout the project...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “We felt that all your employees did a great job in keeping the good
           reputation you have established. Tom was always good at answering our
           questions and keeping his appointments with us. He was friendly, made
@@ -45,21 +45,21 @@ function Page() {
           us fairly and honestly throughout the project. Again, thanks for a
           great job!”
         </p>
-        <p className="mt-[1%]">-Kevin and Carol</p>
+        <p className="mt-[1%] text-lg">-Kevin and Carol</p>
 
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Your crew was super and we are thrilled...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “Just wanted to let you know how very pleased we are with your work.
           Your crew was super and we are thrilled with our new roof. We will
           most definitely spread the good word.”
         </p>
-        <p className="mt-[1%]">-Darrell and Lori</p>
+        <p className="mt-[1%] text-lg">-Darrell and Lori</p>
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Professional, timely and easy to work with...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “We want to compliment you on your project coordinator Tom, and the
           crew that worked on our house. Tom was professional, timely and easy
           to work with. The crew that was sent to our house to install the roof
@@ -67,11 +67,11 @@ function Page() {
           pass on to all of them that we are very pleased. We highly recommend
           Buhr Construction.”
         </p>
-        <p className="mt-[1%]">-Mary and Dave</p>
+        <p className="mt-[1%] text-lg">-Mary and Dave</p>
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Hats off to you and your man...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “I want to compliment you and your crew for the exceptional job you
           did replacing the roof on our home. Corey and his crew were the most
           polite and professional group of young men I have had the pleasure of
@@ -80,37 +80,37 @@ function Page() {
           and explained things to us. Again, hats off to you and your men for an
           excellent job on our home.”
         </p>
-        <p className="mt-[1%]">-Mark and Mary</p>
+        <p className="mt-[1%] text-lg">-Mark and Mary</p>
         <h2 className="mt-[8%] text-2xl text-blue-600">
           I surely will recommend Buhr...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “I’m very satisfied with the roof and skylights you installed at my
           cottage. I was especially pleased with how clean you left the cottage,
           both inside and outside. I surely will recommend Buhr Construction if
           the occasion occurs. Once again, thanks for a job well done.”
         </p>
-        <p className="mt-[1%]">-Dan</p>
+        <p className="mt-[1%] text-lg">-Dan</p>
         <h2 className="mt-[8%] text-2xl text-blue-600">Nice to work with...</h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “Your crews were sure nice to work with during the projects at our
           house. Thanks for a nice job. The new roof looks great!”
         </p>
-        <p className="mt-[1%]">-Dave</p>
+        <p className="mt-[1%] text-lg">-Dave</p>
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Quick response to fix tree damage...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “Thank you so much for your quick response fix our tree-damaged
           garage. The Buhr Construction team did an outstanding and professional
           job. We will gladly spread the word of your company. Good job and
           thanks again!”
         </p>
-        <p className="mt-[1%]">-Jim and Kathy</p>
+        <p className="mt-[1%] text-lg">-Jim and Kathy</p>
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Quality workmanship and crews...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “Thank you for the quality workmanship and crews you provided to our
           jobsite in Sturgeon Bay. It was truly a pleasure to work with Cory,
           Brian, Dan and Jason over the course of the three-week effort. They
@@ -118,12 +118,12 @@ function Page() {
           I hope to be able to do business with you and them in the future.”
           -Kenneith A. Rock Rock Construction Company
         </p>
-        <p className="mt-[1%]">-Kenneith A. Rock</p>
-        <p className="mt-[1%]">-Rock Construction Company</p>
+        <p className="mt-[1%] text-lg">-Kenneith A. Rock</p>
+        <p className="mt-[1%] text-lg">-Rock Construction Company</p>
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Terrific job on our barn roof...
         </h2>
-        <p className="mt-[1%]">
+        <p className="mt-[1%] text-lg">
           “The Buhr Construction team did a terrific job on our barn roof. The
           project was a roof replacement on a 150-year-old barn. The roof was
           very high and the tear off was a dirty job. They conscientiously
@@ -135,7 +135,7 @@ function Page() {
           project to ensure expectations were met or exceeded. I am very please
           with the new roof. Thanks again to the team for a job well done!””
         </p>
-        <p className="mt-[1%] mb-[8%]">-Roderick</p>
+        <p className="mt-[1%] text-lg mb-[8%]">-Roderick</p>
       </div>
       <Contact />
       <Footer />

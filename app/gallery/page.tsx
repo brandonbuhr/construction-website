@@ -14,7 +14,7 @@ const Page = () => {
         <h3 className="mt-[8%] text-3xl text-center font-bold text-blue-600">
           Browse our collection of work
         </h3>
-        <p className="mt-[2%] mb-[8%]">
+        <p className="mt-[2%] mb-[8%] text-xl">
           The most enjoyable part of the building process is watching our
           customers step back to smile and admire the beauty of their finished
           project. Get a virtual preview of that experience by browsing this
