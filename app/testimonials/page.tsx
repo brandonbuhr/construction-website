@@ -7,7 +7,7 @@ function Page() {
     <div>
       <Navbar />
       <div className="mr-[20%] ml-[20%]">
-        <h1 className="mt-[8%] text-center text-3xl font-bold text-blue-600">
+        <h1 className="mt-[8%] text-center text-4xl font-bold">
           Customer Testimonials
         </h1>
         <h1 className="mt-[8%] text-center text-3xl font-bold text-blue-600">

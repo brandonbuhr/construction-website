@@ -8,10 +8,10 @@ const Page = () => {
     <div>
       <Navbar />
       <div className="mr-[20%] ml-[20%] mt-[3%]">
-        <h1 className="text-center text-3xl font-bold mt-8">
+        <h1 className="text-center text-4xl font-bold mt-8">
           About Buhr Construction
         </h1>
-        <h3 className="mt-[12%] text-center text-2xl text-blue-600 lg:mt-[4%] md:mt-[8%] sm:mt-[12%]">
+        <h3 className="mt-[12%] text-center text-3xl font-bold text-blue-600 lg:mt-[4%] md:mt-[8%] sm:mt-[12%]">
           Founded on Hard Work and Lasting Relationships
         </h3>
         <p className="mt-[12%] text-lg lg:mt-[4%] md:mt-[8%] sm:mt-[12%]">

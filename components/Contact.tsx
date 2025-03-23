@@ -21,6 +21,8 @@ export default function Contact() {
     defaultValues: {
       name: "",
       phone: "",
+      email: "",
+      message: "",
     },
   });
 
@@ -91,6 +93,30 @@ export default function Contact() {
                 <FormItem>
                   <FormControl>
                     <Input placeholder="Phone Number" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <Input placeholder="Email" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="message"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <Input placeholder="Type your message here..." {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
