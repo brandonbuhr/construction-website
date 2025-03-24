@@ -1,19 +1,23 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Iconbar() {
   return (
     <>
       <nav>
         <ul className="ml-4 mr-4 xl:ml-24 xl:mr-24 font-bold justify-items-center grid xl:grid-cols-6 lg:grid-cols-3 md:grid-cols-3 grid-cols-2">
-          <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
-            <Image
-              src="/house-solid.png"
-              alt="house"
-              width={100}
-              height={100}
-            />
-            <li className="mt-5">New Construction</li>
-          </div>
+          <Link href="/services">
+            <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
+              <Image
+                src="/house-solid.png"
+                alt="house"
+                width={100}
+                height={100}
+              />
+              <li className="mt-5">New Construction</li>
+            </div>
+          </Link>
+
           <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
             <Image
               src="/pencil-solid.png"
