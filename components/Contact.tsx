@@ -15,6 +15,8 @@ import {
 import { formSchema } from "@/lib/schemas";
 import { send } from "@/lib/email";
 import { useState, useEffect } from "react";
+import { Textarea } from "./ui/textarea";
+
 export default function Contact() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -31,6 +33,7 @@ export default function Contact() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
       await send(values);
+
       setSuccessMessage("Your message was sent successfully!");
       form.reset();
     } catch (error) {
@@ -116,14 +119,17 @@ export default function Contact() {
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Input placeholder="Type your message here..." {...field} />
+                    <Textarea
+                      placeholder="Type your message here..."
+                      {...field}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
               )}
             />
 
-            <Button className="bg-blue-600 hover:bg-red-600" type="submit">
+            <Button className="bg-blue-600 hover:bg-blue-500" type="submit">
               Submit
             </Button>
             {successMessage && (

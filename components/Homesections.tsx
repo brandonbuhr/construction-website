@@ -37,13 +37,13 @@ function Homesections() {
           again.”
         </p>
         <p>-Dores</p>
-        <button className="mt-8 mb-16 bg-blue-600 hover:bg-red-600 text-white p-2 rounded-3xl lg:mr-[45%] lg:ml-[45%] mr-[30%] ml-[30%] transform scale-100 hover:scale-[1.2] transition duration-200">
+        <button className="mt-8 mb-16 bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-3xl lg:mr-[45%] lg:ml-[45%] mr-[30%] ml-[30%] transform scale-100 hover:scale-[1.2] transition duration-200">
           Read more testimonials
         </button>
       </div>
       <div className="flex flex-col justify-center mt-22 bg-blue-200 rounded-2xl pt-8 pb-8 sm:flex-col md:flex-col lg:flex-row">
         <div className="flex justify-center mt-8">
-          <button className="mt-8 mb-16 mr-12 ml-12 p-8 bg-red-600 text-white rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+          <button className="mt-8 mb-16 mr-12 ml-12 p-8 bg-blue-600 text-white rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Request your free quote!
           </button>
         </div>
@@ -56,7 +56,7 @@ function Homesections() {
             questions or for a quote at{" "}
             <b className="text-xl">(920) 825-1318</b>.
           </p>
-          <button className="mt-8 mb-16 mr-12 ml-12 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-red-600">
+          <button className="mt-8 mb-16 mr-12 ml-12 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
             Contact Us
           </button>
         </div>
@@ -74,7 +74,7 @@ function Homesections() {
             Door Counties.
           </p>
           <Link href="gallery">
-            <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-red-600">
+            <button className="mt-8 mb-16 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
               View Our Gallery
             </button>
           </Link>
