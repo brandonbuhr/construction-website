@@ -82,7 +82,7 @@ export default function Contact() {
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Input placeholder="Name" {...field} />
+                    <Input type="text" placeholder="Name" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -95,7 +95,11 @@ export default function Contact() {
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Input placeholder="Phone Number" {...field} />
+                    <Input
+                      type="number"
+                      placeholder="Phone Number"
+                      {...field}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -107,7 +111,7 @@ export default function Contact() {
               render={({ field }) => (
                 <FormItem>
                   <FormControl>
-                    <Input placeholder="Email" {...field} />
+                    <Input type="email" placeholder="Email" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
