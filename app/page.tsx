@@ -10,9 +10,8 @@ export default function Page() {
   return (
     <>
       <div>
-        <div>
-          <Navbar />
-        </div>
+        <Navbar />
+
         <div>
           <Mainbanner />
         </div>
