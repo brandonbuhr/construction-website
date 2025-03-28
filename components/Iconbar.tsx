@@ -17,7 +17,7 @@ function Iconbar() {
               <li className="mt-5">New Construction</li>
             </div>
           </Link>
-          <Link href="/services#remodeling">
+          <Link href="/services#construction">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
               <Image
                 src="/pencil-solid.png"
@@ -28,7 +28,7 @@ function Iconbar() {
               <li className="mt-5">Remodeling</li>
             </div>
           </Link>
-          <Link href="/services#roofing">
+          <Link href="/services#remodeling">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
               <Image
                 src="/people-roof-solid.png"
@@ -39,7 +39,7 @@ function Iconbar() {
               <li className="mt-5">Roofing</li>
             </div>
           </Link>
-          <Link href="/services#tree">
+          <Link href="/services#roofing">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
               <Image
                 src="/tree-solid.png"
@@ -50,7 +50,7 @@ function Iconbar() {
               <li className="mt-5">Tree Removal</li>
             </div>
           </Link>
-          <Link href="/services#windows">
+          <Link href="/services#tree">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
               <Image
                 src="/window-icon.png"
@@ -61,7 +61,7 @@ function Iconbar() {
               <li className="mt-5">Windows & Siding</li>
             </div>
           </Link>
-          <Link href="/services#custom-woodworking">
+          <Link href="/services#windows">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
               <Image
                 src="/hammer-solid.png"
