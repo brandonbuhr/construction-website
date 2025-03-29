@@ -8,7 +8,7 @@ const Page = () => {
     <div>
       <Navbar />
       <div className="ml-[20%] mr-[20%]">
-        <h1 className="mt-[8%] text-3xl text-center font-bold text-blue-600">
+        <h1 className="mt-[8%] text-4xl text-center font-bold">
           Project Gallery
         </h1>
         <h3 className="mt-[8%] text-3xl text-center font-bold text-blue-600">
