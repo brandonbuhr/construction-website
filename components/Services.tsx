@@ -4,8 +4,8 @@ function Services() {
   return (
     <>
       <section id="construction">
-        <div className="ml-[20%] mr-[20%] mt-24 flex">
-          <div className="mt-32 mr-8 max-w-[100px]">
+        <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
+          <div className="mt-8 mr-8 max-w-[100px]">
             <Image
               src="/house-solid.png"
               alt="house"
@@ -14,7 +14,7 @@ function Services() {
             />
           </div>
           <div>
-            <h1 className="mt-24 text-2xl text-blue-600">New Construction</h1>
+            <h1 className="mt-8 text-2xl text-blue-600">New Construction</h1>
             <h3 className="text-xl font-bold mt-4">
               Your Vision - Custom Built - Start to Finish
             </h3>
@@ -34,8 +34,8 @@ function Services() {
         </div>
       </section>
       <section id="remodeling">
-        <div className="ml-[20%] mr-[20%] flex">
-          <div className="mt-32 mr-8 max-w-[100px]">
+        <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
+          <div className="mt-8 mr-8 max-w-[100px]">
             <Image
               src="/pencil-solid.png"
               alt="house"
@@ -44,7 +44,7 @@ function Services() {
             />
           </div>
           <div>
-            <h1 className="mt-24 text-2xl text-blue-600">Remodeling</h1>
+            <h1 className="mt-8 text-2xl text-blue-600">Remodeling</h1>
             <h3 className="text-xl font-bold mt-4">
               Make Your Home, Barn or Business New Again
             </h3>
@@ -65,8 +65,8 @@ function Services() {
         </div>
       </section>
       <section id="roofing">
-        <div className="ml-[20%] mr-[20%] flex">
-          <div className="mt-32 mr-8 max-w-[100px]">
+        <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
+          <div className="mt-8 mr-8 max-w-[100px]">
             <Image
               src="/people-roof-solid.png"
               alt="house"
@@ -75,7 +75,7 @@ function Services() {
             />
           </div>
           <div>
-            <h1 className="mt-24 text-2xl text-blue-600">Roofing</h1>
+            <h1 className="mt-8 text-2xl text-blue-600">Roofing</h1>
             <h3 className="text-xl font-bold mt-4">
               Master Roofing Means Getting it Right the First Time
             </h3>
@@ -107,8 +107,8 @@ function Services() {
         </div>
       </section>
       <section id="tree">
-        <div className="ml-[20%] mr-[20%] flex">
-          <div className="mt-32 mr-8 max-w-[100px]">
+        <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
+          <div className="mt-8 mr-8 max-w-[100px]">
             <Image
               src="/tree-solid.png"
               alt="house"
@@ -138,8 +138,8 @@ function Services() {
         </div>
       </section>
       <section id="windows">
-        <div className="ml-[20%] mr-[20%] flex">
-          <div className="mt-32 mr-8 max-w-[100px]">
+        <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
+          <div className="mt-8 mr-8 max-w-[100px]">
             <Image
               src="/window-icon.png"
               alt="house"
@@ -170,8 +170,8 @@ function Services() {
         </div>
       </section>
       <section id="custom-woodworking">
-        <div className="ml-[20%] mr-[20%] flex">
-          <div className="mt-32 mr-8 max-w-[100px]">
+        <div className="ml-[16%] mr-[16%] mt-24 mb-48 flex flex-col">
+          <div className="mt-8 mr-8 max-w-[100px]">
             <Image
               src="/hammer-solid.png"
               alt="house"
@@ -186,7 +186,7 @@ function Services() {
             <h3 className="text-xl font-bold mt-4">
               Build Character with Handcrafted Woodwork
             </h3>
-            <p className="mt-4 mb-24">
+            <p className="mt-4">
               Buhr Construction has an on-site sawmill and lumberyard. That
               means the boards, framing and finishing materials we use for new
               construction and remodeling projects come from our very own
