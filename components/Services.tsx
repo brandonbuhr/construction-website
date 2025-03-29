@@ -7,7 +7,7 @@ function Services() {
         <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
           <div className="mt-8 mr-8 max-w-[100px]">
             <Image
-              src="/house-solid.png"
+              src="/construction.png"
               alt="house"
               width={600}
               height={600}
@@ -36,12 +36,7 @@ function Services() {
       <section id="remodeling">
         <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
           <div className="mt-8 mr-8 max-w-[100px]">
-            <Image
-              src="/pencil-solid.png"
-              alt="house"
-              width={600}
-              height={600}
-            />
+            <Image src="/home.png" alt="house" width={600} height={600} />
           </div>
           <div>
             <h1 className="mt-8 text-2xl text-blue-600">Remodeling</h1>
@@ -66,13 +61,8 @@ function Services() {
       </section>
       <section id="roofing">
         <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
-          <div className="mt-8 mr-8 max-w-[100px]">
-            <Image
-              src="/people-roof-solid.png"
-              alt="house"
-              width={1000}
-              height={1000}
-            />
+          <div className="mt-8 mr-8 max-w-[120px]">
+            <Image src="/repair.png" alt="house" width={1000} height={1000} />
           </div>
           <div>
             <h1 className="mt-8 text-2xl text-blue-600">Roofing</h1>
@@ -109,12 +99,7 @@ function Services() {
       <section id="tree">
         <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
           <div className="mt-8 mr-8 max-w-[100px]">
-            <Image
-              src="/tree-solid.png"
-              alt="house"
-              width={1000}
-              height={1000}
-            />
+            <Image src="/tree.png" alt="house" width={1000} height={1000} />
           </div>
           <div>
             <h1 className="mt-16 text-2xl text-blue-600">Tree Removal</h1>
@@ -172,12 +157,7 @@ function Services() {
       <section id="custom-woodworking">
         <div className="ml-[16%] mr-[16%] mt-24 mb-48 flex flex-col">
           <div className="mt-8 mr-8 max-w-[100px]">
-            <Image
-              src="/hammer-solid.png"
-              alt="house"
-              width={1000}
-              height={1000}
-            />
+            <Image src="/tools.png" alt="house" width={1000} height={1000} />
           </div>
           <div>
             <h1 className="mt-16 text-2xl text-blue-600">

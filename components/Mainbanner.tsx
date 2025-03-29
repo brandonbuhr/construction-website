@@ -9,7 +9,7 @@ function Mainbanner() {
         <Image
           src="/house1.jpg"
           alt=""
-          width={1300}
+          width={1100}
           height={400}
           className="rounded-2xl"
         />

@@ -9,7 +9,7 @@ function Iconbar() {
           <Link href="/services">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
               <Image
-                src="/house-solid.png"
+                src="/construction.png"
                 alt="house"
                 width={100}
                 height={100}
@@ -19,34 +19,19 @@ function Iconbar() {
           </Link>
           <Link href="/services#construction">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
-              <Image
-                src="/pencil-solid.png"
-                alt="house"
-                width={100}
-                height={100}
-              />
+              <Image src="/home.png" alt="house" width={100} height={100} />
               <li className="mt-5">Remodeling</li>
             </div>
           </Link>
           <Link href="/services#remodeling">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
-              <Image
-                src="/people-roof-solid.png"
-                alt="house"
-                width={100}
-                height={100}
-              />
+              <Image src="/repair.png" alt="house" width={100} height={100} />
               <li className="mt-5">Roofing</li>
             </div>
           </Link>
           <Link href="/services#roofing">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
-              <Image
-                src="/tree-solid.png"
-                alt="house"
-                width={100}
-                height={100}
-              />
+              <Image src="/tree.png" alt="house" width={100} height={100} />
               <li className="mt-5">Tree Removal</li>
             </div>
           </Link>
@@ -63,12 +48,7 @@ function Iconbar() {
           </Link>
           <Link href="/services#windows">
             <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
-              <Image
-                src="/hammer-solid.png"
-                alt="house"
-                width={100}
-                height={100}
-              />
+              <Image src="/tools.png" alt="house" width={100} height={100} />
               <li className="mt-5">Woodwork</li>
             </div>
           </Link>
