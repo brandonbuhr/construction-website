@@ -4,6 +4,7 @@ function Services() {
   return (
     <>
       <section id="construction">
+        <h1 className="mt-[8%] text-center text-4xl font-bold">Services</h1>
         <div className="ml-[16%] mr-[16%] mt-24 flex flex-col">
           <div className="mt-8 mr-8 max-w-[100px]">
             <Image

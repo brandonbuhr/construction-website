@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="mt-8 sticky top-0 bg-white z-50 flex justify-around pl-4 pr-4">
+      <nav className="pt-2 pb-4 sticky top-0 bg-blue-200 z-50 flex justify-around pl-4 pr-4">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image

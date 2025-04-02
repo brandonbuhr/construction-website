@@ -9,7 +9,7 @@ function Homesections() {
           <h1 className="text-center font-bold text-2xl mt-2">
             Buhr Construction is a ShingleMaster!
           </h1>
-          <p className="ml-[4%] mr-[4%] mt-12 text-center">
+          <p className="ml-[4%] mr-[4%] mt-12">
             Our skilled workforce is proudly led by CertainTeed ShingleMasterTM
             certified experts. This accreditation ensures a commitment to
             quality. All crews are trained to use the highest quality materials
@@ -26,8 +26,8 @@ function Homesections() {
           />
         </div>
       </div>
-      <div className="flex justify-center flex-col text-center mt-12">
-        <h1 className="text-center font-bold text-2xl mt-8 mb-8">
+      <div className="flex justify-center flex-col mt-12">
+        <h1 className="font-bold text-2xl mt-8 mb-8 text-center">
           Hear from our satisfied clients
         </h1>
 
@@ -36,7 +36,7 @@ function Homesections() {
           real good hardworking and friendly people working for you. Thanks
           again.”
         </p>
-        <p>-Dores</p>
+        <p className="text-center">-Dores</p>
         <button className="mt-8 mb-16 bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-3xl lg:mr-[45%] lg:ml-[45%] mr-[30%] ml-[30%] transform scale-100 hover:scale-[1.2] transition duration-200">
           Read more testimonials
         </button>
@@ -61,12 +61,12 @@ function Homesections() {
           </button>
         </div>
       </div>
-      <div className="mt-32 mr-8 ml-8 flex flex-col items-center text-center">
+      <div className="mt-32 mr-8 ml-8 flex flex-col items-center">
         <div className="ml-12 mr-12">
           <h1 className="text-2xl font-bold mt-8">
             Browse our collection of work
           </h1>
-          <p className="text-xl mt-8 mb-8 mr-12">
+          <p className="text-xl mt-8 mb-8">
             The most enjoyable part of the building process is watching our
             customers step back to smile and admire the beauty of their finished
             project. Get a virtual preview of that experience by browsing this
