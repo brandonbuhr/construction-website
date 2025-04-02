@@ -154,7 +154,7 @@ function Services() {
           </div>
         </div>
       </section>
-      <section id="custom-woodworking">
+      <section id="woodwork">
         <div className="ml-[16%] mr-[16%] mt-24 mb-48 flex flex-col">
           <div className="mt-8 mr-8 max-w-[100px]">
             <Image src="/tools.png" alt="house" width={1000} height={1000} />

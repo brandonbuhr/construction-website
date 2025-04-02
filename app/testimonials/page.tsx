@@ -26,8 +26,8 @@ function Page() {
           “Thank you for the excellent job your men did on my roof. You have
           real good hardworking and friendly people working for you. Thanks
           again.”
-          <p className="mt-[1%] text-lg">-Dores</p>
         </p>
+        <p className="mt-[1%] text-lg">-Dores</p>
         <h2 className="mt-[8%] text-2xl text-blue-600">
           Treated us fairly and honestly throughout the project...
         </h2>

@@ -9,16 +9,18 @@ function Navbar() {
 
   return (
     <>
-      <nav className="mt-8 sticky top-0 bg-white z-50 flex justify-around ml-4 mr-4">
+      <nav className="mt-8 sticky top-0 bg-white z-50 flex justify-around pl-4 pr-4">
         <div className="flex justify-between items-center">
-          <Image
-            src="/logo-buhr-construction.png"
-            alt=""
-            width={180}
-            height={150}
-            className="pt-4 mr-12 min-w-[160px]"
-          />
-          <ul className="hidden lg:flex font-bold space-x-10">
+          <Link href="/">
+            <Image
+              src="/logo-buhr-construction.png"
+              alt=""
+              width={180}
+              height={150}
+              className="pt-4 pb-2 mr-12 min-w-[160px]"
+            />
+          </Link>
+          <ul className="hidden lg:flex font-bold space-x-10 pb-12">
             <li className="text-sm sm:text-md md:text-lg lg:text-xl mt-9 pt-6 pl-2 pr-2 hover:cursor-pointer hover:underline">
               <Link href="/">Home</Link>
             </li>
