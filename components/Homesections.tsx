@@ -31,21 +31,25 @@ function Homesections() {
           Hear from our satisfied clients
         </h1>
 
-        <p className="ml-[20%] mr-[20%]">
+        <p className="ml-16 mr-16 text-center">
           “Thank you for the excellent job your men did on my roof. You have
           real good hardworking and friendly people working for you. Thanks
           again.”
         </p>
         <p className="text-center">-Dores</p>
-        <button className="mt-8 mb-16 bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-3xl lg:mr-[45%] lg:ml-[45%] mr-[30%] ml-[30%] transform scale-100 hover:scale-[1.2] transition duration-200">
-          Read more testimonials
-        </button>
+        <Link className="text-center" href="/testimonials">
+          <button className="mt-8 mb-16 mr-12 ml-12 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+            Read more testimonials
+          </button>
+        </Link>
       </div>
       <div className="flex flex-col justify-center mt-22 bg-blue-200 rounded-2xl pt-8 pb-8 sm:flex-col md:flex-col lg:flex-row">
         <div className="flex justify-center mt-8">
-          <button className="mt-8 mb-16 mr-12 ml-12 p-8 bg-blue-600 text-white rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
-            Request your free quote!
-          </button>
+          <Link href="contact-us">
+            <button className="mt-8 mb-16 mr-12 ml-12 p-12 bg-blue-600 text-white rounded-3xl font-bold text-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+              Request your free quote!
+            </button>
+          </Link>
         </div>
         <div className="text-center mt-8">
           <h1 className="text-2xl font-bold mt-8 mr-12 ml-12">
@@ -56,9 +60,11 @@ function Homesections() {
             questions or for a quote at{" "}
             <b className="text-xl">(920) 825-1318</b>.
           </p>
-          <button className="mt-8 mb-16 mr-12 ml-12 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
-            Contact Us
-          </button>
+          <Link href="contact-us">
+            <button className="mt-8 mb-16 mr-12 ml-12 bg-blue-600 text-white p-2 pl-4 pr-4 rounded-3xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
       <div className="mt-32 mr-8 ml-8 flex flex-col items-center">
