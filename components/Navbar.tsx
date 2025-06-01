@@ -9,14 +9,14 @@ function Navbar() {
 
   return (
     <>
-      <nav className="pt-2 pb-4 sticky top-0 bg-blue-200 z-50 flex justify-around pl-4 pr-4">
+      <nav className="pb-1 sticky top-0 bg-blue-200 z-50 flex justify-around pl-4 pr-4">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image
               src="/logo-buhr-construction.png"
               alt=""
-              width={180}
-              height={150}
+              width={90}
+              height={60}
               className="pt-4 pb-2 mr-12 min-w-[160px]"
             />
           </Link>
