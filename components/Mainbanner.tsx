@@ -4,7 +4,7 @@ function Mainbanner() {
     <>
       <div className="mt-16 flex justify-center items-center">
         <div className="absolute text-center text-2xl text-white xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl">
-          <h2 className="font-bold">Quality building for over 20 years.</h2>
+          <h2 className="font-bold">Quality building for over 30 years.</h2>
         </div>
         <Image
           src="/house1.jpg"
