@@ -33,6 +33,11 @@ const nextConfig: NextConfig = {
         destination:"/services",
         permanent: true,
       },
+      {
+        source:"/tree-removal.html",
+        destination:"/services",
+        permanent: true,
+      },
     ];
   },
 };
