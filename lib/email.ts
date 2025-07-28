@@ -9,13 +9,16 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const send = async (emailFormData: z.infer<typeof formSchema>) => {
   try {
-
     const { error } = await resend.emails.send({
       from: `Buhr Construction<${process.env.RESEND_FROM_EMAIL}>`,
-      to: `${process.env.TEMPORARY_EMAIL}` ,
-      subject: "Welcome",
-      react: EmailTemplate({ name: emailFormData.name }) as React.ReactElement,
-
+      to: `${process.env.TEMPORARY_EMAIL}`,
+      subject: "New Message for Buhr Construction",
+      react: EmailTemplate({
+        name: emailFormData.name,
+        phone: emailFormData.phone,
+        email: emailFormData.email,
+        message: emailFormData.message,
+      }) as React.ReactElement,
     });
 
     if (error) {
