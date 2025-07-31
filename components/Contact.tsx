@@ -6,7 +6,7 @@ import { Textarea } from "./ui/textarea";
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
-const FORMSPREE_FORM_ID = "xblkkoag";
+const FORMSPREE_FORM_ID = "manbbazj";
 
 export default function Contact() {
   const [state, handleSubmit] = useForm(FORMSPREE_FORM_ID);
