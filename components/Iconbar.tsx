@@ -47,7 +47,7 @@ function Iconbar() {
             </div>
           </Link>
           <Link href="/services#woodwork">
-            <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-6 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
+            <div className="w-[200px] justify-items-center text-center hover:bg-blue-200 hover:cursor-pointer p-4 rounded-3xl transform scale-100 hover:scale-[1.05] transition duration-200">
               <Image src="/tools.png" alt="house" width={100} height={100} />
               <li className="mt-5">Woodwork</li>
             </div>
