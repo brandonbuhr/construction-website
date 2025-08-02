@@ -10,11 +10,13 @@ function Homesections() {
             Buhr Construction is Hiring!
           </h1>
           <p className="ml-[4%] mr-[4%] mt-12">
-            Our skilled workforce is proudly led by CertainTeed ShingleMasterTM
-            certified experts. This accreditation ensures a commitment to
-            quality. All crews are trained to use the highest quality materials
-            and installation techniques, while adhering to exceptional standards
-            for safety, and are all fully insured on the job site.
+            We're looking to add dedicated, experienced skilled laborers to our
+            team! If you have a strong work ethic and experience in construction
+            trades, we want to hear from you. At Buhr Construction, you'll join
+            a crew known for craftsmanship and professionalism. We take pride in
+            providing ongoing training, top-quality materials, and a safe,
+            supportive work environment. Apply today to become a part of our
+            growing company!
           </p>
         </div>
       </div>
