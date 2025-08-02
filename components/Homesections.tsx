@@ -23,7 +23,7 @@ function Homesections() {
             mbuhr@buhrconstruction.com
           </p>
           <Link href="contact-us">
-            <button className="mt-8 mb-8 mr-12 ml-12 bg-blue-600 text-4xl text-white p-4 pl-8 pr-8 rounded-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
+            <button className="mt-16 mb-8 mr-12 ml-12 p-4 pl-8 pr-8 bg-blue-600 text-4xl text-white rounded-2xl transform scale-100 hover:scale-[1.2] transition duration-200 hover:bg-blue-500">
               Contact Us
             </button>
           </Link>
