@@ -7,6 +7,20 @@ function Homesections() {
       <div className="flex flex-col justify-center md:flex-row lg:flex-row sm:items-center items-center bg-blue-200 rounded-2xl pt-8 pb-8">
         <div className="w-[50%] flex-col">
           <h1 className="text-center font-bold text-2xl mt-2">
+            Buhr Construction is Hiring!
+          </h1>
+          <p className="ml-[4%] mr-[4%] mt-12">
+            Our skilled workforce is proudly led by CertainTeed ShingleMasterTM
+            certified experts. This accreditation ensures a commitment to
+            quality. All crews are trained to use the highest quality materials
+            and installation techniques, while adhering to exceptional standards
+            for safety, and are all fully insured on the job site.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col justify-center md:flex-row lg:flex-row sm:items-center items-center bg-blue-200 rounded-2xl pt-8 pb-8">
+        <div className="w-[50%] flex-col">
+          <h1 className="text-center font-bold text-2xl mt-2">
             Buhr Construction is a ShingleMaster!
           </h1>
           <p className="ml-[4%] mr-[4%] mt-12">
